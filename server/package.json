@@ -1,24 +1,27 @@
-
 {
-    "name": "mocknroll-server",
-    "version": "1.0.0",
-    "description": "Server for the Mock 'n' Roll application",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js",
-      "dev": "nodemon server.js"
-    },
-    "author": "Your Name",
-    "license": "MIT",
-    "dependencies": {
-      "cors": "^2.8.5",
-      "express": "^4.17.1",
-      "mongoose": "^5.10.0",
-      "body-parser": "^1.19.0",
-      "faker": "^5.1.0"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.4"
-    }
+  "name": "mocknroll-server",
+  "version": "1.0.0",
+  "description": "Server for MocknRoll application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "casual": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "faker": "^6.6.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
-  
+}
