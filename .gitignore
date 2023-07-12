@@ -1,0 +1,6 @@
+# Ignore node_modules in root, server and client directories
+node_modules/
+server/node_modules/
+client/node_modules/
+pckage-lock.json
+```
